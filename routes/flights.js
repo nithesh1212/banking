@@ -5,7 +5,6 @@ var db = new Store("data",{pretty:true});
 
 /* GET users listing. */
 router.get('/:id', function(req, res, next) {
-	console.log(req.params.id);
 	var obj = db.getSync("flight");
 	var isRecordFound = false;
     	obj.flights.map(function(flight){
