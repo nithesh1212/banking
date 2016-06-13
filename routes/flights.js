@@ -1,0 +1,33 @@
+var express = require('express');
+var router = express.Router();
+var Store = require("jfs");
+var db = new Store("data",{pretty:true});
+
+/* GET users listing. */
+router.get('/:id', function(req, res, next) {
+	console.log(req.params.id);
+	var obj = db.getSync("flight");
+	var isRecordFound = false;
+    	obj.flights.map(function(flight){
+    		if(flight.id===req.params.id){
+    			isRecordFound = true;
+    			res.send(flight);
+    		}
+    	});
+    	if(!isRecordFound){
+    		res.send({"message":"No Record Found"});
+    	}
+});
+
+router.post('/:modal', function(req, res, next){
+	var modal = req.params.modal;
+	var d = req.body;
+
+	console.log(modal);
+	db.saveSync(modal, d, function(err){
+ 	   console.log('Data stored succesfully.....');
+	});
+	res.send(db.getSync(modal));
+});
+
+module.exports = router;

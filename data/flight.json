@@ -1,0 +1,36 @@
+{
+    "flights": [
+        {
+            "id": "QR579",
+            "departureAirport": {
+                "name": "Delhi",
+                "code": "DEL"
+            },
+            "arrivalAirport": {
+                "name": "Doha",
+                "code": "DOH"
+            },
+            "terminal": "3",
+            "status": "Arrived",
+            "scheduled": "2016-06-13T23:44:00",
+            "estimated": "2016-06-13T23:44:00",
+            "lastupdated": "2016-06-13T24:44:00"
+        },
+        {
+            "id": "QR571",
+            "departureAirport": {
+                "name": "Delhi",
+                "code": "DEL"
+            },
+            "arrivalAirport": {
+                "name": "Doha",
+                "code": "DOH"
+            },
+            "terminal": "3",
+            "status": "In Flight",
+            "scheduled": "2016-06-13T21:44:00",
+            "estimated": "2016-06-13T21:44:00",
+            "lastupdated": "2016-06-13T22:44:00"
+        }
+    ]
+}
