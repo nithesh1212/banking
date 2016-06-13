@@ -6,11 +6,10 @@ var db = new Store("data",{pretty:true});
 /* GET users listing. */
 router.get('/:id', function(req, res, next) {
 	var date = req.query.date
-	console.log(">>>>>>>>>>>"+date);
 	var obj = db.getSync("flight");
 	var isRecordFound = false;
     	obj.flights.map(function(flight){
-    		if(flight.id===req.params.id && flight.departure_date === date){
+    		if(flight.id.toLowerCase()===(req.params.id).toLowerCase() && flight.departure_date === date){
     			isRecordFound = true;
     			res.send(flight);
     		}
