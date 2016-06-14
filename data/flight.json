@@ -42,16 +42,16 @@
             "status": "Arrived",
             "departure_date": "2016-06-14",
             "scheduled": {
-                "departure": "2016-06-13T22:00:00.000Z",
-                "arrival": "2016-06-14T01:45:00.000Z"
+                "departure": "Tue 14 June 03:30",
+                "arrival": "Tue 14 June 04:45"
             },
             "lastupdated": {
                 "departure": {
-                    "time": "2016-06-13T22:19:00.000Z",
+                    "time": "Tue 14 June 03:49",
                     "state": "Departed"
                 },
                 "arrival": {
-                    "time": "2016-06-14T02:14:00.000Z",
+                    "time": "Tue 14 June 05:14",
                     "state": "Arrived"
                 }
             }
@@ -70,16 +70,16 @@
             "status": "Scheduled",
             "departure_date": "2016-06-15",
             "scheduled": {
-                "departure": "2016-06-14T22:00:00.000Z",
-                "arrival": "2016-06-15T01:45:00.000Z"
+                "departure": "Wed 15 June 03:30",
+                "arrival": "Wed 15 June 04:45"
             },
             "lastupdated": {
                 "departure": {
-                    "time": "2016-06-14T22:00:00.000Z",
+                    "time": "Wed 15 June 03:30",
                     "state": "Estimated"
                 },
                 "arrival": {
-                    "time": "2016-06-15T01:45:00.000Z",
+                    "time": "Wed 15 June 04:45",
                     "state": "Estimated"
                 }
             }
@@ -98,16 +98,16 @@
             "status": "Scheduled",
             "departure_date": "2016-06-16",
             "scheduled": {
-                "departure": "2016-06-15T22:00:00.000Z",
-                "arrival": "2016-06-16T01:45:00.000Z"
+                "departure": "Thu 16 June 03:30",
+                "arrival": "Thu 16 June 04:45"
             },
             "lastupdated": {
                 "departure": {
-                    "time": "2016-06-14T22:00:00.000Z",
+                    "time": "Thu 16 June 03:30",
                     "state": "Estimated"
                 },
                 "arrival": {
-                    "time": "2016-06-15T01:45:00.000Z",
+                    "time": "Thu 16 June 04:45",
                     "state": "Estimated"
                 }
             }
