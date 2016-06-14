@@ -5,111 +5,27 @@
             "departureAirport": {
                 "name": "Delhi",
                 "code": "DEL",
-                "terminal":"3"
+                "terminal": "3"
             },
             "arrivalAirport": {
                 "name": "Doha",
                 "code": "DOH"
             },
             "status": "Arrived",
-            "departure_date":"2016-06-13",
+            "departure_date": "2016-06-13",
             "scheduled": {
-                "departure":"2016-06-13T03:30:00",
-                "arrival":"2016-06-13T04:45:00"
+                "departure": "2016-06-13T03:30:00",
+                "arrival": "2016-06-13T04:45:00"
             },
             "lastupdated": {
-                "departure":{
-                    "time":"2016-06-13T03:42:00",
-                    "state":"Departed"
+                "departure": {
+                    "time": "2016-06-13T03:42:00",
+                    "state": "Departed"
                 },
-                "arrival":{
-                    "time":"2016-06-13T05:02:00",
-                    "state":"Arrived"
-                  }
-            }
-        },
-        {
-            "id": "QR571",
-            "departureAirport": {
-                "name": "Delhi",
-                "code": "DEL",
-                "terminal":"4"
-            },
-            "arrivalAirport": {
-                "name": "Doha",
-                "code": "DOH"
-            },
-            "status": "Arrived",
-            "departure_date":"2016-06-13",
-            "scheduled": {
-                "departure":"2016-06-13T10:05:00",
-                "arrival":"2016-06-13T11:20:00"
-            },
-            "lastupdated": {
-                "departure":{
-                    "time":"2016-06-13T10:14:00",
-                    "state":"Departed"
-                },
-                "arrival":{
-                    "time":"2016-06-13T11:31:00",
-                    "state":"Arrived"
-                  }
-            }
-        },
-        {
-            "id": "QR501",
-            "departureAirport": {
-                "name": "Hyderabad",
-                "code": "HYD",
-                "terminal":"4"
-            },
-            "arrivalAirport": {
-                "name": "Doha",
-                "code": "DOH"
-            },
-            "status": "Arrived",
-            "departure_date":"2016-06-13",
-            "scheduled": {
-                "departure":"2016-06-13T03:30:00",
-                "arrival":"2016-06-13T05:15:00"
-            },
-            "lastupdated": {
-                "departure":{
-                    "time":"2016-06-13T03:29:00",
-                    "state":"Departed"
-                },
-                "arrival":{
-                    "time":"2016-06-13T05:13:00",
-                    "state":"Arrived"
-                  }
-            }
-        },
-        {
-            "id": "QR1034",
-            "departureAirport": {
-                "name": "Doha",
-                "code": "DOH",
-                "terminal":"4"
-            },
-            "arrivalAirport": {
-                "name": "Dubai World Central",
-                "code": "DWC"
-            },
-            "status":"Scheduled",
-            "departure_date":"2016-06-13",
-            "scheduled": {
-                "departure":"2016-06-13T20:05:00",
-                "arrival":"2016-06-13T22:15:00"
-            },
-            "lastupdated": {
-                "departure":{
-                    "time":"2016-06-13T20:05:00",
-                    "state":"Estimated"
-                },
-                "arrival":{
-                    "time":"2016-06-13T22:15:00",
-                    "state":"Estimated"
-                  }
+                "arrival": {
+                    "time": "2016-06-13T05:02:00",
+                    "state": "Arrived"
+                }
             }
         },
         {
@@ -117,111 +33,83 @@
             "departureAirport": {
                 "name": "Delhi",
                 "code": "DEL",
-                "terminal":"3"
+                "terminal": "3"
             },
             "arrivalAirport": {
                 "name": "Doha",
                 "code": "DOH"
             },
-            "status": "Scheduled",
-            "departure_date":"2016-06-14",
+            "status": "Arrived",
+            "departure_date": "2016-06-14",
             "scheduled": {
-                "departure":"2016-06-14T03:30:00",
-                "arrival":"2016-06-14T04:45:00"
+                "departure": "2016-06-13T22:00:00.000Z",
+                "arrival": "2016-06-14T01:45:00.000Z"
             },
             "lastupdated": {
-                "departure":{
-                    "time":"2016-06-14T03:30:00",
-                    "state":"Estimated"
+                "departure": {
+                    "time": "2016-06-13T22:19:00.000Z",
+                    "state": "Departed"
                 },
-                "arrival":{
-                    "time":"2016-06-14T04:45:00",
-                    "state":"Estimated"
-                  }
+                "arrival": {
+                    "time": "2016-06-14T02:14:00.000Z",
+                    "state": "Arrived"
+                }
             }
         },
         {
-            "id": "QR571",
+            "id": "QR579",
             "departureAirport": {
                 "name": "Delhi",
                 "code": "DEL",
-                "terminal":"4"
+                "terminal": "3"
             },
             "arrivalAirport": {
                 "name": "Doha",
                 "code": "DOH"
             },
             "status": "Scheduled",
-            "departure_date":"2016-06-14",
+            "departure_date": "2016-06-15",
             "scheduled": {
-                "departure":"2016-06-14T10:05:00",
-                "arrival":"2016-06-14T11:20:00"
+                "departure": "2016-06-14T22:00:00.000Z",
+                "arrival": "2016-06-15T01:45:00.000Z"
             },
             "lastupdated": {
-                "departure":{
-                    "time":"2016-06-14T10:05:00",
-                    "state":"Estimated "
+                "departure": {
+                    "time": "2016-06-14T22:00:00.000Z",
+                    "state": "Estimated"
                 },
-                "arrival":{
-                    "time":"2016-06-14T11:20:00",
-                    "state":"Estimated "
-                  }
+                "arrival": {
+                    "time": "2016-06-15T01:45:00.000Z",
+                    "state": "Estimated"
+                }
             }
         },
         {
-            "id": "QR501",
+            "id": "QR579",
             "departureAirport": {
-                "name": "Hyderabad",
-                "code": "HYD",
-                "terminal":"4"
+                "name": "Delhi",
+                "code": "DEL",
+                "terminal": "3"
             },
             "arrivalAirport": {
                 "name": "Doha",
                 "code": "DOH"
             },
             "status": "Scheduled",
-            "departure_date":"2016-06-14",
+            "departure_date": "2016-06-16",
             "scheduled": {
-                "departure":"2016-06-14T03:30:00",
-                "arrival":"2016-06-14T05:15:00"
+                "departure": "2016-06-15T22:00:00.000Z",
+                "arrival": "2016-06-16T01:45:00.000Z"
             },
             "lastupdated": {
-                "departure":{
-                    "time":"2016-06-14T03:30:00",
-                    "state":"Estimated"
+                "departure": {
+                    "time": "2016-06-14T22:00:00.000Z",
+                    "state": "Estimated"
                 },
-                "arrival":{
-                    "time":"2016-06-14T05:15:00",
-                    "state":"Estimated"
-                  }
-            }
-        },
-        {
-            "id": "QR1034",
-            "departureAirport": {
-                "name": "Doha",
-                "code": "DOH",
-                "terminal":"4"
-            },
-            "arrivalAirport": {
-                "name": "Dubai World Central",
-                "code": "DWC"
-            },
-            "status":"Scheduled",
-            "departure_date":"2016-06-14",
-            "scheduled": {
-                "departure":"2016-06-13T20:05:00",
-                "arrival":"2016-06-13T22:15:00"
-            },
-            "lastupdated": {
-                "departure":{
-                    "time":"2016-06-13T20:05:00",
-                    "state":"Estimated"
-                },
-                "arrival":{
-                    "time":"2016-06-13T22:15:00",
-                    "state":"Estimated"
-                  }
+                "arrival": {
+                    "time": "2016-06-15T01:45:00.000Z",
+                    "state": "Estimated"
+                }
             }
         }
     ]
