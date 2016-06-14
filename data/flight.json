@@ -13,6 +13,7 @@
             },
             "status": "Arrived",
             "departure_date": "2016-06-13",
+            "departure_date_display":"Mon Jun 13 2016",
             "scheduled": {
                 "departure": "2016-06-13T03:30:00",
                 "arrival": "2016-06-13T04:45:00"
@@ -41,6 +42,7 @@
             },
             "status": "Arrived",
             "departure_date": "2016-06-14",
+            "departure_date_display":"Tue Jun 14 2016",
             "scheduled": {
                 "departure": "Tue 14 June 03:30",
                 "arrival": "Tue 14 June 04:45"
@@ -69,6 +71,7 @@
             },
             "status": "Scheduled",
             "departure_date": "2016-06-15",
+            "departure_date_display":"Wed Jun 15 2016",
             "scheduled": {
                 "departure": "Wed 15 June 03:30",
                 "arrival": "Wed 15 June 04:45"
@@ -97,6 +100,7 @@
             },
             "status": "Scheduled",
             "departure_date": "2016-06-16",
+            "departure_date_display":"Thu 16 June",
             "scheduled": {
                 "departure": "Thu 16 June 03:30",
                 "arrival": "Thu 16 June 04:45"
