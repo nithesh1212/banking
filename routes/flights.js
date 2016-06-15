@@ -29,7 +29,7 @@ router.get('/book/search', function(req, res, next) {
     };
     	obj.flights.map(function(flight){
     		if(flight.departuredate === date && flight.departureairport.code === departure && flight.arrivalairport.code === arrival){
-    			result.airports.push(flight);
+    			result.flights.push(flight);
     		}
     	});
     res.send(result);
