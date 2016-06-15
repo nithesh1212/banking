@@ -25,7 +25,7 @@ router.get('/book/search', function(req, res, next) {
 	var arrival = req.query.arrival;
 	var obj = db.getSync("book-a-flight");
 	var result = {
-        "airports":[]
+        "flights":[]
     };
     	obj.flights.map(function(flight){
     		if(flight.departuredate === date && flight.departureairport.code === departure && flight.arrivalairport.code === arrival){
