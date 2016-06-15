@@ -56,6 +56,72 @@
                     "weight": "40 kgs"
                 }
             ]
+        },
+        {
+            "id": "QR0571",
+            "name": "QR 0571, Airbus A330-300",
+            "operator": "Qatar Airways",
+            "departuredate": "2016-06-17",
+            "duration": "3h 45m",
+            "departureairport": {
+                "code": "HYD",
+                "name": "Hyderabad, Rajiv Gandhi International Airport India",
+                "time": "10:05",
+                "datetime": "Fri , 17 Jun 2016 10:05"
+            },
+            "arrivalairport": {
+                "code": "DOH",
+                "name": "Doha, Hamad International Airport Qata",
+                "time": "11:20",
+                "datetime": "Fri , 17 Jun 2016 11:20"
+            },
+            "classes": [
+                {
+                    "name": "ECONOMY PROMO",
+                    "price": "12,723.00 INR",
+                    "cancellation": "2355 INR",
+                    "changes": "2015 INR",
+                    "noshow": "Non-refundable",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY SAVER",
+                    "price": "16,167.00 INR",
+                    "cancellation": "2015 INR",
+                    "changes": "1345 INR",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY VALUE",
+                    "price": "37,108.00 INR",
+                    "cancellation": "1345 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY FLEXI",
+                    "price": "44,138.00 INR",
+                    "cancellation": "Free of charge",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "BUSINESS SAVER",
+                    "price": "57,438.00 INR",
+                    "cancellation": "6720 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "Two pieces, not to exceed a total weight of 15kg",
+                    "weight": "40 kgs"
+                }
+            ]
         }
     ]
-}
+}   
