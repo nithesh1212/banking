@@ -1,0 +1,61 @@
+{
+    "flights": [
+        {
+            "id": "QR0501",
+            "name": "QR 0501, Airbus A321",
+            "operator": "Qatar Airways",
+            "departuredate": "2016-06-17",
+            "duration": "4h 15m",
+            "departureairport": {
+                "code": "HYD",
+                "name": "Hyderabad, Rajiv Gandhi International Airport India",
+                "time": "03:30",
+                "datetime": "Fri , 17 Jun 2016 03:30"
+            },
+            "arrivalairport": {
+                "code": "DOH",
+                "name": "Doha, Hamad International Airport Qata",
+                "time": "05:15",
+                "datetime": "Fri , 17 Jun 2016 05:15"
+            },
+            "classes": [
+                {
+                    "name": "ECONOMY SAVER",
+                    "price": "26,707.00 INR",
+                    "cancellation": "2015 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY VALUE",
+                    "price": "29,793.00 INR",
+                    "cancellation": "1345 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY FLEXI",
+                    "price": "44,138.00 INR",
+                    "cancellation": "Free of charge",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "BUSINESS SAVER",
+                    "price": "57,438.00 INR",
+                    "cancellation": "6720 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "Two pieces, not to exceed a total weight of 15kg",
+                    "weight": "40 kgs"
+                }
+            ]
+        }
+    ]
+}
