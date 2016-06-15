@@ -24,16 +24,16 @@ router.get('/book/search', function(req, res, next) {
 	var departure = req.query.departure;
 	var arrival = req.query.arrival;
 	var obj = db.getSync("book-a-flight");
-	var isRecordFound = false;
+	var result = {
+        "airports":[]
+    };
     	obj.flights.map(function(flight){
     		if(flight.departuredate === date && flight.departureairport.code === departure && flight.arrivalairport.code === arrival){
-    			isRecordFound = true;
-    			res.send(flight);
+    			result.airports.push(flight);
     		}
     	});
-    	if(!isRecordFound){
-    		res.send({"message":"No Record Found"});
-    	}
+    res.send(result);
+    	
 });
 
 router.post('/:modal', function(req, res, next){
