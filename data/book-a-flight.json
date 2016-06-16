@@ -4,6 +4,7 @@
             "id": "QR0501",
             "name": "QR 0501, Airbus A321",
             "operator": "Qatar Airways",
+            "date":"Jun 17 2016",
             "departuredate": "2016-06-17",
             "duration": "4h 15m",
             "departureairport": {
@@ -61,6 +62,7 @@
             "id": "QR0571",
             "name": "QR 0571, Airbus A330-300",
             "operator": "Qatar Airways",
+            "date":"Jun 17 2016",
             "departuredate": "2016-06-17",
             "duration": "3h 45m",
             "departureairport": {
@@ -97,6 +99,64 @@
                 {
                     "name": "ECONOMY VALUE",
                     "price": "37,108.00 INR",
+                    "cancellation": "1345 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY FLEXI",
+                    "price": "44,138.00 INR",
+                    "cancellation": "Free of charge",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "BUSINESS SAVER",
+                    "price": "57,438.00 INR",
+                    "cancellation": "6720 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "Two pieces, not to exceed a total weight of 15kg",
+                    "weight": "40 kgs"
+                }
+            ]
+        },
+        {
+            "id": "QR0502",
+            "name": "QR 0502, Airbus A321",
+            "operator": "Qatar Airways",
+            "date":"Jun 20 2016",
+            "departuredate": "2016-06-20",
+            "duration": "4h 15m",
+            "departureairport": {
+                "code": "DOH",
+                "name": "Doha, Hamad International Airport Qata",
+                "time": "04:15",
+                "datetime": "Fri , 17 Jun 2016 04:15"
+            },
+            "arrivalairport": {
+                "code": "HYD",
+                "name": "Hyderabad, Rajiv Gandhi International Airport India",
+                "time": "06:30",
+                "datetime": "Fri , 17 Jun 2016 05:30"
+            },
+            "classes": [
+                {
+                    "name": "ECONOMY SAVER",
+                    "price": "26,707.00 INR",
+                    "cancellation": "2015 INR",
+                    "changes": "Free of charge",
+                    "noshow": "3360 INR",
+                    "handbaggage": "One piece, no to exceed 7 kg",
+                    "weight": "30 kgs"
+                },
+                {
+                    "name": "ECONOMY VALUE",
+                    "price": "29,793.00 INR",
                     "cancellation": "1345 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",

@@ -21,16 +21,21 @@ router.get('/:id', function(req, res, next) {
 
 router.get('/book/search', function(req, res, next) {
 	var date = req.query.date
-	var departure = req.query.departure;
-	var arrival = req.query.arrival;
+	var departure = req.query.from;
+	var arrival = req.query.to;
+	var returndate = req.query.returndate;
 	var obj = db.getSync("book-a-flight");
 	var result = {
         "flights":[]
     };
     	obj.flights.map(function(flight){
-    		if(flight.departuredate === date && flight.departureairport.code === departure && flight.arrivalairport.code === arrival){
+    		if(flight.date === date && flight.departureairport.code === from && flight.arrivalairport.code === to){
+    			//flight.type = "going";
     			result.flights.push(flight);
-    		}
+    		} /*else if(flight.date === date && flight.departureairport.code === to && flight.arrivalairport.code === from){
+               flight.type = "return";
+               result.flights.push(flight);
+    		}*/
     	});
     res.send(result);
     	
@@ -42,7 +47,7 @@ router.get('/instance/:id', function(req, res, next) {
 	
     	obj.flights.map(function(flight){
     		if(flight.id === id){
-    		    res.send(flight);	
+    		    res.send(flight);		
     		}
     	}); 	
 });
