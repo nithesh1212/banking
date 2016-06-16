@@ -56,11 +56,29 @@ router.get('/instance/:id', function(req, res, next) {
 router.post('/book/ticket', function(req, res, next) {
 	var payload = req.body
 	var obj = db.getSync("book-a-flight");
+	
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for( var i=0; i < 10; i++ ){
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+
+	var result;
 	  obj.flights.map(function(flight){
     		if(flight.id === payload.id){
-    		    res.send(flight);
+    			flight.bookingId = text;
+    		    result = flight;
     		}
-    	});	
+    	});
+      if(payload.rid && payload.rid !== 'undefined' && payload.rid !== ""){
+      	obj.flights.map(function(flight){
+    		if(flight.id === payload.rid){
+    		    result.return = flight;
+    		}
+    	});
+      }		
+	  res.send(result);
 });
 
 router.post('/:modal', function(req, res, next){
