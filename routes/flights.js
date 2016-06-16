@@ -74,7 +74,7 @@ router.post('/book/ticket', function(req, res, next) {
       if(payload.rid && payload.rid !== 'undefined' && payload.rid !== ""){
       	obj.flights.map(function(flight){
     		if(flight.id === payload.rid){
-    		    result.return = flight;
+    		    result.returnbooking = flight;
     		}
     	});
       }		
