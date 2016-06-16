@@ -71,7 +71,7 @@ router.post('/book/ticket', function(req, res, next) {
     		    result = flight;
     		}
     	});
-      if(payload.rid && payload.rid !== 'undefined' && payload.rid !== ""){
+      if(typeof(payload.rid) !== 'undefined' && payload.rid &&  payload.rid !== "" && typeof(payload.rcategory) !== 'undefined'&& payload.rcategory && payload.rcategory !== ""){
       	obj.flights.map(function(flight){
     		if(flight.id === payload.rid){
     		    result.returnbooking = flight;
