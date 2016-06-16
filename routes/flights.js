@@ -42,7 +42,7 @@ router.get('/instance/:id', function(req, res, next) {
 	
     	obj.flights.map(function(flight){
     		if(flight.id === id){
-    		    res.send(result);	
+    		    res.send(flight);	
     		}
     	}); 	
 });
@@ -52,12 +52,9 @@ router.post('/book/ticket', function(req, res, next) {
 	var obj = db.getSync("book-a-flight");
 	  obj.flights.map(function(flight){
     		if(flight.id === payload.id){
-    			flight.classes
-    			result.flights.push(flight);
+    		    res.send(flight);
     		}
-    	});
-    res.send(result);
-    	
+    	});	
 });
 
 router.post('/:modal', function(req, res, next){
