@@ -9,12 +9,14 @@
             "duration": "4h 15m",
             "departureairport": {
                 "code": "HYD",
+                "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "03:30",
                 "datetime": "Fri , 17 Jun 2016 03:30"
             },
             "arrivalairport": {
                 "code": "DOH",
+                "city":"Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "05:15",
                 "datetime": "Fri , 17 Jun 2016 05:15"
@@ -67,12 +69,14 @@
             "duration": "3h 45m",
             "departureairport": {
                 "code": "HYD",
+                "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "10:05",
                 "datetime": "Fri , 17 Jun 2016 10:05"
             },
             "arrivalairport": {
                 "code": "DOH",
+                "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "11:20",
                 "datetime": "Fri , 17 Jun 2016 11:20"
@@ -134,12 +138,14 @@
             "duration": "4h 15m",
             "departureairport": {
                 "code": "DOH",
+                "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "04:15",
                 "datetime": "Fri , 17 Jun 2016 04:15"
             },
             "arrivalairport": {
                 "code": "HYD",
+                "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "06:30",
                 "datetime": "Fri , 17 Jun 2016 05:30"
