@@ -36,6 +36,30 @@ router.get('/book/search', function(req, res, next) {
     	
 });
 
+router.get('/instance/:id', function(req, res, next) {
+	var obj = db.getSync("book-a-flight");
+	var id = req.params.id
+	
+    	obj.flights.map(function(flight){
+    		if(flight.id === id){
+    		    res.send(result);	
+    		}
+    	}); 	
+});
+
+router.post('/book/ticket', function(req, res, next) {
+	var payload = req.body
+	var obj = db.getSync("book-a-flight");
+	  obj.flights.map(function(flight){
+    		if(flight.id === payload.id){
+    			flight.classes
+    			result.flights.push(flight);
+    		}
+    	});
+    res.send(result);
+    	
+});
+
 router.post('/:modal', function(req, res, next){
 	var modal = req.params.modal;
 	var d = req.body;
