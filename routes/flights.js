@@ -29,8 +29,8 @@ router.get('/book/search', function(req, res, next) {
         "flights":[]
     };		
     	obj.flights.map(function(flight){
-    		if(flight.departuredate === date && flight.departureairport.code === from 
-    			&& flight.arrivalairport.code === to){
+    		if(flight.departureairport.code === from && flight.arrivalairport.code === to &&
+    			(flight.departuredate === date || flight.date === date)){
     			//flight.type = "going";
     			result.flights.push(flight);
     		} /*else if(flight.date === date && flight.departureairport.code === to && flight.arrivalairport.code === from){
