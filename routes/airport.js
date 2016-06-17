@@ -6,12 +6,13 @@ var db = new Store("data",{pretty:true});
 /* GET users listing. */
 router.get('/:query', function(req, res, next) {
 	var obj = db.getSync("airports");
-    var query = req.params.query
+    var query = req.params.query;
+    query = query.toLowerCase();
     var result = {
         "airports":[]
     };
     	obj.airports.map(function(airport){
-    		if(airport.name.indexOf(query)> -1 || airport.city.indexOf(query)>-1 || airport.countryname.indexOf(query)>-1){
+    		if(airport.name.toLowerCase().indexOf(query)> -1 || airport.city.toLowerCase().indexOf(query)>-1 || airport.countryname.toLowerCase().indexOf(query)>-1){
     		    result.airports.push(airport);
     		}
     	});

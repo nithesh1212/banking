@@ -1,13 +1,13 @@
 {
     "airports": [
         {
-            "name": "Rajiv Gandhi International Airport",
+            "name": "Hyderabad, Rajiv Gandhi International Airport",
             "citycode": "HYD",
             "city": "Hyderabad",
             "countryname": "India"
         },
         {
-            "name": "Hamad International Airport",
+            "name": "Doha, Hamad International Airport",
             "citycode": "DOH",
             "city": "Doha",
             "countryname": "Qatar"
