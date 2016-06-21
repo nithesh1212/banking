@@ -12,14 +12,14 @@
                 "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "03:30",
-                "datetime": "Fri , 17 Jun 2016 03:30"
+                "date": "Fri , 17 Jun 2016"
             },
             "arrivalairport": {
                 "code": "DOH",
                 "city":"Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "05:15",
-                "datetime": "Fri , 17 Jun 2016 05:15"
+                "date": "Fri , 17 Jun 2016"
             },
             "classes": [
                 {
@@ -72,14 +72,14 @@
                 "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "10:05",
-                "datetime": "Fri , 17 Jun 2016 10:05"
+                "date": "Fri , 17 Jun 2016"
             },
             "arrivalairport": {
                 "code": "DOH",
                 "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "11:20",
-                "datetime": "Fri , 17 Jun 2016 11:20"
+                "date": "Fri , 17 Jun 2016"
             },
             "classes": [
                 {
@@ -141,14 +141,14 @@
                 "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "04:15",
-                "datetime": "Fri , 17 Jun 2016 04:15"
+                "date": "Fri , 17 Jun 2016"
             },
             "arrivalairport": {
                 "code": "HYD",
                 "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "06:30",
-                "datetime": "Fri , 17 Jun 2016 05:30"
+                "date": "Fri , 17 Jun 2016"
             },
             "classes": [
                 {
@@ -201,14 +201,14 @@
                 "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "09:15",
-                "datetime": "Fri , 20 Jun 2016 09:15"
+                "date": "Fri , 20 Jun 2016"
             },
             "arrivalairport": {
                 "code": "HYD",
                 "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "12:30",
-                "datetime": "Fri , 20 Jun 2016 12:30"
+                "date": "Fri , 20 Jun 2016"
             },
             "classes": [
                 {
@@ -222,7 +222,7 @@
                 },
                 {
                     "name": "ECONOMY VALUE",
-                    "price": "29,793.00 INR",
+                    "price": "29,793.00",
                     "cancellation": "1345 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",

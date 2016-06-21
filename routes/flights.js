@@ -68,12 +68,14 @@ router.post('/book/ticket', function(req, res, next) {
 	  obj.flights.map(function(flight){
     		if(flight.id === payload.id){
     			flight.bookingId = text;
+    			flight.bookedclass = payload.rcategory;
     		    result = flight;
     		}
     	});
       if(typeof(payload.rid) !== 'undefined' && payload.rid &&  payload.rid !== "" && typeof(payload.rcategory) !== 'undefined'&& payload.rcategory && payload.rcategory !== ""){
       	obj.flights.map(function(flight){
     		if(flight.id === payload.rid){
+    			flight.bookedclass = payload.rcategory;
     		    result.returnbooking = flight;
     		}
     	});
