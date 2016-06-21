@@ -68,7 +68,7 @@ router.post('/book/ticket', function(req, res, next) {
 	  obj.flights.map(function(flight){
     		if(flight.id === payload.id){
     			flight.bookingId = text;
-    			flight.bookedclass = payload.rcategory;
+    			flight.bookedclass = payload.category;
     		    result = flight;
     		}
     	});
