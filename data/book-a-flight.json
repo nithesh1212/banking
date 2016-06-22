@@ -24,7 +24,7 @@
             "classes": [
                 {
                     "name": "ECONOMY SAVER",
-                    "price": "26,707.00 INR",
+                    "price": "26,707.00",
                     "cancellation": "2015 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -33,7 +33,7 @@
                 },
                 {
                     "name": "ECONOMY VALUE",
-                    "price": "29,793.00 INR",
+                    "price": "29,793.00",
                     "cancellation": "1345 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -42,7 +42,7 @@
                 },
                 {
                     "name": "ECONOMY FLEXI",
-                    "price": "44,138.00 INR",
+                    "price": "44,138.00",
                     "cancellation": "Free of charge",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -51,7 +51,7 @@
                 },
                 {
                     "name": "BUSINESS SAVER",
-                    "price": "57,438.00 INR",
+                    "price": "57,438.00",
                     "cancellation": "6720 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -84,7 +84,7 @@
             "classes": [
                 {
                     "name": "ECONOMY PROMO",
-                    "price": "12,723.00 INR",
+                    "price": "12,723.00",
                     "cancellation": "2355 INR",
                     "changes": "2015 INR",
                     "noshow": "Non-refundable",
@@ -93,7 +93,7 @@
                 },
                 {
                     "name": "ECONOMY SAVER",
-                    "price": "16,167.00 INR",
+                    "price": "16,167.00",
                     "cancellation": "2015 INR",
                     "changes": "1345 INR",
                     "noshow": "3360 INR",
@@ -102,7 +102,7 @@
                 },
                 {
                     "name": "ECONOMY VALUE",
-                    "price": "37,108.00 INR",
+                    "price": "37,108.00",
                     "cancellation": "1345 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -111,7 +111,7 @@
                 },
                 {
                     "name": "ECONOMY FLEXI",
-                    "price": "44,138.00 INR",
+                    "price": "44,138.00",
                     "cancellation": "Free of charge",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -120,7 +120,7 @@
                 },
                 {
                     "name": "BUSINESS SAVER",
-                    "price": "57,438.00 INR",
+                    "price": "57,438.00",
                     "cancellation": "6720 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -153,7 +153,7 @@
             "classes": [
                 {
                     "name": "ECONOMY SAVER",
-                    "price": "26,707.00 INR",
+                    "price": "26,707.00",
                     "cancellation": "2015 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -162,7 +162,7 @@
                 },
                 {
                     "name": "ECONOMY VALUE",
-                    "price": "29,793.00 INR",
+                    "price": "29,793.00",
                     "cancellation": "1345 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -171,7 +171,7 @@
                 },
                 {
                     "name": "ECONOMY FLEXI",
-                    "price": "44,138.00 INR",
+                    "price": "44,138.00",
                     "cancellation": "Free of charge",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "BUSINESS SAVER",
-                    "price": "57,438.00 INR",
+                    "price": "57,438.00",
                     "cancellation": "6720 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
@@ -213,7 +213,7 @@
             "classes": [
                 {
                     "name": "ECONOMY SAVER",
-                    "price": "26,707.00 INR",
+                    "price": "26,707.00",
                     "cancellation": "2015 INR",
                     "changes": "Free of charge",
                     "noshow": "3360 INR",
