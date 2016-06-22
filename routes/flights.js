@@ -60,14 +60,14 @@ router.post('/book/ticket', function(req, res, next) {
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-    for( var i=0; i < 10; i++ ){
+    for( var i=0; i < 4; i++ ){
         text += possible.charAt(Math.floor(Math.random() * possible.length));
     }
 
 	var result;
 	  obj.flights.map(function(flight){
     		if(flight.id === payload.id){
-    			flight.bookingId = text;
+    			flight.bookingId = 'AL'+text;
     			flight.bookedclass = payload.category;
     		    result = flight;
     		}
