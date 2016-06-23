@@ -364,22 +364,22 @@
             "id": "QR0502",
             "name": "QR 0502, Airbus A321",
             "operator": "Qatar Airways",
-            "date":"Jun 27 2016",
-            "departuredate": "2016-06-27",
+            "date":"Jul 1 2016",
+            "departuredate": "2016-07-01",
             "duration": "4h 15m",
             "departureairport": {
                 "code": "DOH",
                 "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "04:15",
-                "date": "Mon , 27 Jun 2016"
+                "date": "Fri , 01 Jul 2016"
             },
             "arrivalairport": {
                 "code": "HYD",
                 "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "06:30",
-                "date": "Mon , 27 Jun 2016"
+                "date": "Fri , 01 Jul 2016"
             },
             "classes": [
                 {
@@ -424,22 +424,22 @@
             "id": "QR0571",
             "name": "QR 0571, Airbus A425",
             "operator": "Qatar Airways",
-            "date":"Jun 27 2016",
-            "departuredate": "2016-06-27",
+            "date":"Jul 01 2016",
+            "departuredate": "2016-07-01",
             "duration": "3h 15m",
             "departureairport": {
                 "code": "DOH",
                 "city": "Doha",
                 "name": "Doha, Hamad International Airport Qata",
                 "time": "09:15",
-                "date": "Mon , 27 Jun 2016"
+                "date": "Fri , 01 Jul 2016"
             },
             "arrivalairport": {
                 "code": "HYD",
                 "city": "Hyderabad",
                 "name": "Hyderabad, Rajiv Gandhi International Airport India",
                 "time": "12:30",
-                "date": "Mon , 27 Jun 2016"
+                "date": "Fri , 01 Jul 2016"
             },
             "classes": [
                 {
