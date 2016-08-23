@@ -5,10 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
-var flights = require('./routes/flights');
-var airports = require('./routes/airport');
+//var routes = require('./routes/index');
+//var users = require('./routes/users');
+//var flights = require('./routes/flights');
+var interestrates = require('./routes/interestrates');
 
 var app = express();
 
@@ -29,10 +29,10 @@ app.use(cookieParser());
 app.use('/static', express.static('public'));
 
 
-app.use('/', routes);
-app.use('/users', users);
-app.use('/flights', flights);
-app.use('/airports', airports);
+//app.use('/', routes);
+//app.use('/users', users);
+//app.use('/flights', flights);
+app.use('/interestrates', interestrates);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
