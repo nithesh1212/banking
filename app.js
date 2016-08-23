@@ -9,6 +9,7 @@ var bodyParser = require('body-parser');
 //var users = require('./routes/users');
 //var flights = require('./routes/flights');
 var interestrates = require('./routes/interestrates');
+var contact = require('./routes/updateinfo');
 
 var app = express();
 
@@ -33,6 +34,7 @@ app.use('/static', express.static('public'));
 //app.use('/users', users);
 //app.use('/flights', flights);
 app.use('/interestrates', interestrates);
+app.use('/updateinfo',contact )
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
