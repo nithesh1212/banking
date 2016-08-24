@@ -30,7 +30,7 @@ app.use(cookieParser());
 //app.use(express.static(path.join(__dirname, 'public')));
 app.use('/static', express.static('public'));
 
-app.get('/:fileName',function (req,res){
+app.get('/data/:fileName',function (req,res){
 
 	var fileName = req.params.fileName;
 	console.log(fileName);
