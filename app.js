@@ -4,12 +4,13 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 //var routes = require('./routes/index');
 //var users = require('./routes/users');
 //var flights = require('./routes/flights');
-var interestrates = require('./routes/interestrates');
-var contact = require('./routes/updateinfo');
+//var interestrates = require('./routes/interestrates');
+//var contact = require('./routes/updateinfo');
 
 var app = express();
 
@@ -29,12 +30,20 @@ app.use(cookieParser());
 //app.use(express.static(path.join(__dirname, 'public')));
 app.use('/static', express.static('public'));
 
+app.get('/:fileName',function (req,res){
 
-//app.use('/', routes);
-//app.use('/users', users);
-//app.use('/flights', flights);
-app.use('/interestrates', interestrates);
-app.use('/updateinfo',contact )
+	var fileName = req.params.fileName;
+	console.log(fileName);
+	
+	fs.readFile('./data/'+fileName,function(err,data){
+		console.log(data);
+			res.send(JSON.parse(data.toString()));
+	});
+	
+	
+	
+});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
