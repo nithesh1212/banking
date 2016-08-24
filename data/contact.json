@@ -4,16 +4,6 @@
         	"customername": "Manasa J",
         	"customerid": "6244216",
         	"phoneno": "999999999"
-    	},
-    	{
-        	"customername": "Test three",
-        	"customerid": "6244284",
-        	"phoneno": "8888888888"
-    	},
-    	{
-        	"customername": "Test two",
-        	"customerid": "6244276",
-        	"phoneno": "7777777777"
     	}
 	]
 }
