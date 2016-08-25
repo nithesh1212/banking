@@ -1,0 +1,31 @@
+{
+    "pp": [
+        {
+            "toaccount": "ram,ram@gmail.com",
+            "amount": "4500",
+            "fromaccount": {
+                "accountnumber": "111232123456",
+                "bankname": "ICICIBankLtd"
+            },
+            "remarks": "gift"
+        },
+        {
+            "toaccount": "laxx,laxx@gmail.com",
+            "amount": "9000",
+            "fromaccount": {
+                "accountnumber": "222989725367",
+                "bankname": "CANARA Bank"
+            },
+            "remarks": "bugs"
+        },
+        {
+            "toaccount": "patil,patil@gmail.com",
+            "amount": "8500",
+            "fromaccount": {
+                "accountnumber": "276457678898",
+                "bankname": "State Bank of India"
+            },
+            "remarks": "bounty"
+        }
+    ]
+}
