@@ -1,0 +1,20 @@
+{
+"payeelist"	: [{
+     "payee": "Verizon",
+      "nickname": "My phone 1",
+      "utility_account_number": "12345"
+    },
+    {
+      "payee": "AT&T",
+      "nickname": "My Phone 2",
+      "utility_account_number": "45678"
+    },
+    {
+      "payee": "Florida Power",
+      "nickname": "Electricity",
+      "utility_account_number": "78997"
+    }
+  ]
+
+
+}

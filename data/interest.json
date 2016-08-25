@@ -7,7 +7,7 @@
 "duration": "6 months"
 },
 {
-"min_amt": "$1000.00",
+"min_amt": "$1,000.00",
 "max_amt": "$9,999.99",
 "interest_rate": "0.06%",
 "duration": "6 months"
@@ -43,7 +43,7 @@
 "duration": "12 months"
 },
 {
-"min_amt": "$1000.00",
+"min_amt": "$1,000.00",
 "max_amt": "$9,999.99",
 "interest_rate": "0.13%",
 "duration": "12 months"
