@@ -30,7 +30,7 @@
 },
 {
 "min_amt": "$500,000",
-"max_amt": "-1",
+"max_amt": "above $500,000",
 "interest_rate": "0.14",
 "duration": "6 months"
 },
@@ -66,7 +66,7 @@
 },
 {
 "min_amt": "$500,000",
-"max_amt": "-1",
+"max_amt": "above $500,000",
 "interest_rate": "0.22",
 "duration": "12 months"
 }
